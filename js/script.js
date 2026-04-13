@@ -149,3 +149,10 @@ function setError(input, message) {
 function validateEmail(email) {
   return /^[^ ]+@[^ ]+\.[a-z]{2,3}$/.test(email);
 }
+
+// AOS animation initialization
+AOS.init({
+  duration: 800,
+  once: true,   
+  offset: 100   
+});
